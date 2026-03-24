@@ -122,6 +122,30 @@
   <Target Name="Clean" DependsOnTargets="$(CleanDependsOn)" />
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <ItemGroup>
+    <Content Include="Pages\StartPage\1 - Copy.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\ActiveButton.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\ActiveButton.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\ActiveButton.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControl\RadioGroup.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\RadioGroup.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\RadioGroup.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControl\UserControl1.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\UserControl1.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\UserControl1.usercontrol</DependentUpon>
+    </Content>
     <Folder Include="Fonts\" />
     <Folder Include="Images" />
     <Folder Include="Images\Manifest" />
@@ -130,7 +154,9 @@
     <Folder Include="Imports\Videos" />
     <Folder Include="KeyboardLayouts\" />
     <Folder Include="Localization" />
+    <Folder Include="UserControl" />
     <Folder Include="Pages\" />
+    <Folder Include="Pages\NewFolder1\" />
     <Folder Include="Pages\StartPage\" />
     <Folder Include="Server\ADS\" />
     <Folder Include="Server\TcHmiLua\" />
@@ -152,6 +178,30 @@
     <Folder Include="Properties" />
     <Content Include=".eslintrc.json">
       <Visible>false</Visible>
+    </Content>
+    <Content Include="Images\DownPress_1.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\DownPress_2.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SidePress_1.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SidePress_2.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Wheel_1.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Wheel_2.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Wheel_3.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Wheel_4.svg">
+      <SubType>Content</SubType>
     </Content>
     <Content Include="Pages\Events.content">
       <SubType>Content</SubType>

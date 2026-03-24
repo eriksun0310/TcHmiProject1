@@ -1,0 +1,66 @@
+{
+  "parameters": [
+    {
+      "allowSymbolExpressionsInObject": false,
+      "defaultValue": null,
+      "requiredOnCompile": false,
+      "bindable": true,
+      "propertySetterName": "setBtnImage",
+      "propertyGetterName": "getBtnImage",
+      "refTo": "",
+      "name": "data-tchmi-btn-image",
+      "displayName": "BtnImage",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Path",
+      "category": "",
+      "description": "背景圖片路徑",
+      "readOnly": false,
+      "heritable": true,
+      "propertyName": "BtnImage"
+    },
+    {
+      "allowSymbolExpressionsInObject": false,
+      "defaultValue": {
+        "color": "rgba(224, 224, 224, 1)"
+      },
+      "defaultValueInternal": {
+        "color": "rgba(214, 214, 214, 1)"
+      },
+      "requiredOnCompile": false,
+      "bindable": true,
+      "propertySetterName": "setActivateColor",
+      "propertyGetterName": "getActivateColor",
+      "refTo": "",
+      "name": "data-tchmi-activatecolor",
+      "displayName": "ActivateColor",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Color",
+      "category": "",
+      "description": "",
+      "readOnly": false,
+      "heritable": true,
+      "propertyName": "ActivateColor"
+    },
+    {
+      "allowSymbolExpressionsInObject": false,
+      "defaultValue": false,
+      "requiredOnCompile": false,
+      "bindable": true,
+      "propertySetterName": "setActive",
+      "propertyGetterName": "getActive",
+      "refTo": "",
+      "name": "data-tchmi-active",
+      "displayName": "Active",
+      "visible": true,
+      "type": "tchmi:general#/definitions/BOOL",
+      "category": "",
+      "description": "",
+      "readOnly": false,
+      "heritable": true,
+      "propertyName": "Active"
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "./../../Packages/Beckhoff.TwinCAT.HMI.Framework.14.3.431/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

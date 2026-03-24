@@ -1,0 +1,97 @@
+<div id="1_1" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%">
+
+<div id="TcHmiTabNavigation_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTabNavigation" data-tchmi-height="1280" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="1024" data-tchmi-width-unit="px" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-tabs" type="application/json">
+[
+  {
+    "displayName": "夾具設備",
+    "name": "夾具設備"
+  },
+  {
+    "displayName": "橫移設備",
+    "name": "橫移設備"
+  },
+  {
+    "displayName": "雷射設備",
+    "name": "雷射設備"
+  }
+]
+</script>
+
+</div>
+
+<!-- 側壓 label -->
+<div id="TcHmiTextblock_8" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="17" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="側壓" data-tchmi-top="78" data-tchmi-top-unit="px" data-tchmi-width="28" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+
+<!-- 下壓 label -->
+<div id="TcHmiTextblock_7" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="528" data-tchmi-left-unit="px" data-tchmi-text="下壓" data-tchmi-top="78" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+
+<!-- 入口端/出口端 row -->
+<div id="TcHmiButton_19" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="55" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="入口端" data-tchmi-top="110" data-tchmi-top-unit="px" data-tchmi-width="244" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+<div id="TcHmiButton_18" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="55" data-tchmi-height-unit="px" data-tchmi-left="265" data-tchmi-left-unit="px" data-tchmi-text="出口端" data-tchmi-top="110" data-tchmi-top-unit="px" data-tchmi-width="249" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+<div id="TcHmiButton_17" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="55" data-tchmi-height-unit="px" data-tchmi-left="528" data-tchmi-left-unit="px" data-tchmi-text="入口端" data-tchmi-top="110" data-tchmi-top-unit="px" data-tchmi-width="244" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+<div id="TcHmiButton_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="55" data-tchmi-height-unit="px" data-tchmi-left="772" data-tchmi-left-unit="px" data-tchmi-text="出口端" data-tchmi-top="110" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+
+<!-- 側壓/下壓 action buttons row -->
+<div id="ActiveButton_10" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="178" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/SidePress_1.svg"
+</script>
+</div>
+<div id="ActiveButton_2" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="274" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="178" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/SidePress_2.svg"
+</script>
+</div>
+<div id="ActiveButton_4" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="528" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="178" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/DownPress_1.svg"
+</script>
+</div>
+<div id="ActiveButton_5" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="778" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/DownPress_2.svg"
+</script>
+</div>
+
+<!-- 夾輪 label -->
+<div id="TcHmiTextblock_6" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="夾輪" data-tchmi-top="305" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+
+<!-- 夾輪 buttons row -->
+<div id="ActiveButton_6" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="338" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/Wheel_1.svg"
+</script>
+</div>
+<div id="ActiveButton_7" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="274" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="338" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/Wheel_2.svg"
+</script>
+</div>
+<div id="ActiveButton_9" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="528" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="338" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/Wheel_3.svg"
+</script>
+</div>
+<div id="ActiveButton_8" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="782" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/UserControl1.usercontrol" data-tchmi-top="338" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-btn-image" type="application/json">
+"Images/Wheel_4.svg"
+</script>
+</div>
+
+<!-- 防塵蓋 section -->
+<div id="TcHmiTextblock_5" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="防塵蓋" data-tchmi-top="468" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+<div id="TcHmiToggleSwitch_3" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiToggleSwitch" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="防塵蓋開關" data-tchmi-top="502" data-tchmi-top-unit="px" data-tchmi-width="172" data-tchmi-width-unit="px">
+</div>
+
+<div id="TcHmiButton_20" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="320" data-tchmi-left-unit="px" data-tchmi-text="Button" data-tchmi-top="476" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
+</div>
+</div>
