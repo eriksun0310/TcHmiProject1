@@ -218,6 +218,15 @@
     <Content Include="Pages\StartPage\2.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Pages\StartPage\Fixture.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\StartPage\Traverse.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\StartPage\Laser.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Server\ADS\ADS.Config.default.json">
       <SubType>Content</SubType>
     </Content>
