@@ -122,15 +122,12 @@
   <Target Name="Clean" DependsOnTargets="$(CleanDependsOn)" />
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <ItemGroup>
-    <Content Include="Pages\StartPage\1 - Copy.content">
+    <Content Include="UserControl\ImgButton.usercontrol">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="UserControl\ActiveButton.usercontrol">
+    <Content Include="UserControl\ImgButton.usercontrol.json">
       <SubType>Content</SubType>
-    </Content>
-    <Content Include="UserControl\ActiveButton.usercontrol.json">
-      <SubType>Content</SubType>
-      <DependentUpon>UserControl\ActiveButton.usercontrol</DependentUpon>
+      <DependentUpon>UserControl\ImgButton.usercontrol</DependentUpon>
     </Content>
     <Content Include="UserControl\RadioGroup.usercontrol">
       <SubType>Content</SubType>
@@ -138,6 +135,13 @@
     <Content Include="UserControl\RadioGroup.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControl\RadioGroup.usercontrol</DependentUpon>
+    </Content>
+    <Content Include="UserControl\TextButton.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UserControl\TextButton.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>UserControl\TextButton.usercontrol</DependentUpon>
     </Content>
     <Content Include="UserControl\UserControl1.usercontrol">
       <SubType>Content</SubType>

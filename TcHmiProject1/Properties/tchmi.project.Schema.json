@@ -13,7 +13,7 @@
       "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
       "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
       "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
-      "frameworkUserControlConfig": "UserControl\\ActiveButton.usercontrol.json",
+      "frameworkUserControlConfig": "UserControl\\ImgButton.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/ActiveButton"
     },

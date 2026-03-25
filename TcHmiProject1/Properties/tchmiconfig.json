@@ -59,10 +59,13 @@
   ],
   "userControls": [
     {
-      "url": "UserControl/ActiveButton.usercontrol"
+      "url": "UserControl/ImgButton.usercontrol"
     },
     {
       "url": "UserControl/RadioGroup.usercontrol"
+    },
+    {
+      "url": "UserControl/TextButton.usercontrol"
     },
     {
       "url": "UserControl/UserControl1.usercontrol"
@@ -86,13 +89,6 @@
     },
     {
       "url": "Pages/StartPage.content",
-      "preload": false,
-      "keepAlive": false,
-      "loadSync": false,
-      "preloadBindings": false
-    },
-    {
-      "url": "Pages/StartPage/1 - Copy.content",
       "preload": false,
       "keepAlive": false,
       "loadSync": false,

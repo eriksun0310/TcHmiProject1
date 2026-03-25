@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"UserControl/ActiveButton.usercontrol\" \"UserControl/ImgButton.usercontrol\")",
+      "Bash(mv \"UserControl/ActiveButton.usercontrol.json\" \"UserControl/ImgButton.usercontrol.json\")"
+    ]
+  }
+}
