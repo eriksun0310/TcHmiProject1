@@ -24,6 +24,38 @@
       "frameworkUserControlConfig": "UserControl\\RadioGroup.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/RadioGroup"
+    },
+    "ActiveButton_0": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\ActiveButton.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ActiveButton_0"
+    },
+    "ActiveButton_1": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\ActiveButton.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ActiveButton_1"
+    },
+    "ActiveButton_2": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\ActiveButton.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ActiveButton_2"
+    },
+    "ActiveButton_3": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\ActiveButton.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ActiveButton_3"
     }
   }
 }

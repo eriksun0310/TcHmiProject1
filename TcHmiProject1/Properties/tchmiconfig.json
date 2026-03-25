@@ -59,6 +59,9 @@
   ],
   "userControls": [
     {
+      "url": "UserControl/ActiveButton.usercontrol"
+    },
+    {
       "url": "UserControl/ImgButton.usercontrol"
     },
     {

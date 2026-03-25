@@ -954,6 +954,23 @@
             },
             "USEMAPPING": true
         },
+        "ADS.PLC1.Hmi_web.Jog_FxB.H_Hold": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Jog_FxB::H_Hold",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "propertyOrder": 5
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "ADS.PLC1.Hmi_web.Jog_FxB.H_Open": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -4023,6 +4040,7 @@
                 "ADS.PLC1.Hmi_web.Jog_FxA.V_Close": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxA.V_Open": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxB.H_Close": 3,
+                "ADS.PLC1.Hmi_web.Jog_FxB.H_Hold": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxB.H_Open": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxB.V_Close": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxB.V_Open": 3,

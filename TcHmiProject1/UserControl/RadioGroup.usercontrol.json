@@ -55,18 +55,18 @@
       "allowSymbolExpressionsInObject": false,
       "requiredOnCompile": false,
       "bindable": true,
-      "propertySetterName": "setRadioGroup",
-      "propertyGetterName": "getRadioGroup",
+      "propertySetterName": "setRadioGroUp",
+      "propertyGetterName": "getRadioGroUp",
       "refTo": "",
-      "name": "data-tchmi-radiogroup",
-      "displayName": "radioGroup",
+      "name": "data-tchmi-radiogroUp",
+      "displayName": "radioGroUp",
       "visible": true,
       "type": "tchmi:general#/definitions/String",
       "category": "",
       "description": "",
       "readOnly": false,
       "heritable": true,
-      "propertyName": "radioGroup"
+      "propertyName": "radioGroUp"
     }
   ],
   "virtualRights": [],
