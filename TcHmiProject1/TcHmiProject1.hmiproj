@@ -185,6 +185,9 @@
     <Content Include="Images\SLM ICON\dust.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\SLM ICON\hold.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\SLM ICON\left-round.svg">
       <SubType>Content</SubType>
     </Content>
