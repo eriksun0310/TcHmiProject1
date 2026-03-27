@@ -362,5 +362,15 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-TcHmiProject1.~u
-TcHmiProject1.~u
+
+# TwinCAT HMI backup files
+*.~u
+
+# TwinCAT HMI runtime database
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+
+# TwinCAT HMI downloaded JSON schema files
+json-schema.org
