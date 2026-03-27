@@ -1183,6 +1183,6 @@
 ]
 </script>
 </div>
-<div id="RadioGroup_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroup.usercontrol" data-tchmi-top="47" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="入口端" data-tchmi-rightname="出口端" data-tchmi-radiogroUp="AAA">
+<div id="RadioGroup_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroup.usercontrol" data-tchmi-top="47" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="入口端" data-tchmi-rightname="出口端" data-tchmi-radiogroUp="AAA" data-tchmi-leftactive="True">
 </div>
 </div>
