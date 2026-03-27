@@ -128,6 +128,15 @@
     <Content Include="Images\Down.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\img\MachineABCD-w320.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\img\MachineABCD.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\img\machine_abcd.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Inner.svg">
       <SubType>Content</SubType>
     </Content>
@@ -173,6 +182,9 @@
     <Content Include="Images\SLM ICON\down-round.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\SLM ICON\dust.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\SLM ICON\left-round.svg">
       <SubType>Content</SubType>
     </Content>
@@ -182,7 +194,13 @@
     <Content Include="Images\SLM ICON\UP-round.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\SLM ICON\windy.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\Up.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\StartPage\OOO.content">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UserControl\ImgButton.usercontrol">
@@ -205,6 +223,7 @@
     <Content Include="UserControl\TextButton.usercontrol.json">
       <SubType>Content</SubType>
       <DependentUpon>UserControl\TextButton.usercontrol</DependentUpon>
+      <PreloadingContent>True</PreloadingContent>
     </Content>
     <Content Include="UserControl\UserControl1.usercontrol">
       <SubType>Content</SubType>
@@ -216,6 +235,7 @@
     <Folder Include="Fonts\" />
     <Folder Include="Images" />
     <Folder Include="Images\Manifest" />
+    <Folder Include="Images\img" />
     <Folder Include="Images\SLM ICON" />
     <Folder Include="Imports" />
     <Folder Include="Imports\Images" />
