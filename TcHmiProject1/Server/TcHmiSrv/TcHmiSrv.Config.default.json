@@ -801,6 +801,74 @@
             },
             "USEMAPPING": true
         },
+        "ADS.PLC1.Hmi_web.Car_Down": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Car_Down",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "料架動作-台車下降"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Car_Fwd": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Car_Fwd",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "料架動作-台車後退"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Car_Rev": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Car_Rev",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "料架動作-台車前進*/"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Car_Up": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Car_Up",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "料架動作-台車上升"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "ADS.PLC1.Hmi_web.Jog_FxA.H_Close": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -1017,6 +1085,176 @@
                     },
                     {
                         "propertyOrder": 7
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Module_Select": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Module_Select",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "comment": "指定橫移->用二進位儲存 */"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Pull_over_Push": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Pull_over_Push",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "料架動作-靠邊"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Roller_Down": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Roller_Down",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "滾輪下降"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Roller_Fwd": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Roller_Fwd",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "動力滾輪"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Roller_Rev": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Roller_Rev",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "動力滾輪反轉"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Roller_Up": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Roller_Up",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "滾輪上浮"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Site_Select": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Site_Select",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "comment": "入口料架-出口料架(0/1)*/"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.Speed_Select": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::Speed_Select",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "comment": "料架速率(0/1)*/"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.StopPin_Down": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::StopPin_Down",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "料架動作-頂料柱下降"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "ADS.PLC1.Hmi_web.StopPin_Up": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::Hmi_web::StopPin_Up",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "料架動作-頂料柱上升"
                     }
                 ]
             },
@@ -4031,6 +4269,10 @@
                 "ADS.AdsSyncReadStateReq": 3,
                 "ADS.CheckLicense": 3,
                 "ADS.Diagnostics": 3,
+                "ADS.PLC1.Hmi_web.Car_Down": 3,
+                "ADS.PLC1.Hmi_web.Car_Fwd": 3,
+                "ADS.PLC1.Hmi_web.Car_Rev": 3,
+                "ADS.PLC1.Hmi_web.Car_Up": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxA.H_Close": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxA.H_Open": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxA.N": 3,
@@ -4044,6 +4286,16 @@
                 "ADS.PLC1.Hmi_web.Jog_FxB.H_Open": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxB.V_Close": 3,
                 "ADS.PLC1.Hmi_web.Jog_FxB.V_Open": 3,
+                "ADS.PLC1.Hmi_web.Module_Select": 3,
+                "ADS.PLC1.Hmi_web.Pull_over_Push": 3,
+                "ADS.PLC1.Hmi_web.Roller_Down": 3,
+                "ADS.PLC1.Hmi_web.Roller_Fwd": 3,
+                "ADS.PLC1.Hmi_web.Roller_Rev": 3,
+                "ADS.PLC1.Hmi_web.Roller_Up": 3,
+                "ADS.PLC1.Hmi_web.Site_Select": 3,
+                "ADS.PLC1.Hmi_web.Speed_Select": 3,
+                "ADS.PLC1.Hmi_web.StopPin_Down": 3,
+                "ADS.PLC1.Hmi_web.StopPin_Up": 3,
                 "ChangeUserSettings": 3,
                 "ConfirmAlarm": 3,
                 "CreateEvent": 3,
