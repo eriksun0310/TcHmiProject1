@@ -1044,7 +1044,7 @@
   "color": "rgba(0, 0, 0, 1)"
 }
 </script>
-<div id="Hold" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="520" data-tchmi-left-unit="px" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-background-image="Images/SLM ICON/hold.svg">
+<div id="Hold" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="520" data-tchmi-left-unit="px" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-background-image="Images/SLM ICON/hold.svg" data-tchmi-is-read-only="%f%!%ctrl%RadioGroup_1::leftActive%/ctrl%%/f%">
 
 <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
 {
@@ -1183,6 +1183,6 @@
 ]
 </script>
 </div>
-<div id="RadioGroup_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroup.usercontrol" data-tchmi-top="47" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="入口端" data-tchmi-rightname="出口端" data-tchmi-radiogroUp="AAA">
+<div id="RadioGroup_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroup.usercontrol" data-tchmi-top="47" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="入口端" data-tchmi-rightname="出口端" data-tchmi-radiogroUp="fixture" data-tchmi-leftactive="True">
 </div>
 </div>
