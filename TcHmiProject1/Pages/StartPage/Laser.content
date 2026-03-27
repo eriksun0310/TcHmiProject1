@@ -6,8 +6,16 @@
   "color": "rgba(0, 0, 0, 1)"
 }
 </script>
-<div id="ImgButton_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="145" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="336" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<div id="ImgButton_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="193" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="139" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
 </div>
 <div id="TextButton_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="595" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="358" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-text="11111">
+</div>
+<div id="ImgButton_4" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="155" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="346" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+</div>
+<div id="ImgButton_2" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="329" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="158" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+</div>
+<div id="ImgButton_3" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="687" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="189" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+</div>
+<div id="TextButton_2" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="460" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="565" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-text="22222">
 </div>
 </div>

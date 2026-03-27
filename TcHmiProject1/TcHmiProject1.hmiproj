@@ -122,6 +122,69 @@
   <Target Name="Clean" DependsOnTargets="$(CleanDependsOn)" />
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <ItemGroup>
+    <Content Include="Images\clamp-sketch-Infinity.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Down.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Inner.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Manifest\Beckhoff_Logo.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\material2Down.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\material2Up.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\materialDown.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\materialUP.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Outer.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\pushLeft.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\pushOver.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\pushRight.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\Clockwise.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\Clockwise2x.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\CounterClockwise.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\CounterClockwise2x.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\down-round.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\left-round.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\right-round.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\SLM ICON\UP-round.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Up.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="UserControl\ImgButton.usercontrol">
       <SubType>Content</SubType>
     </Content>
@@ -153,6 +216,7 @@
     <Folder Include="Fonts\" />
     <Folder Include="Images" />
     <Folder Include="Images\Manifest" />
+    <Folder Include="Images\SLM ICON" />
     <Folder Include="Imports" />
     <Folder Include="Imports\Images" />
     <Folder Include="Imports\Videos" />
@@ -160,7 +224,6 @@
     <Folder Include="Localization" />
     <Folder Include="UserControl" />
     <Folder Include="Pages\" />
-    <Folder Include="Pages\NewFolder1\" />
     <Folder Include="Pages\StartPage\" />
     <Folder Include="Server\ADS\" />
     <Folder Include="Server\TcHmiLua\" />
@@ -501,10 +564,6 @@
       <Visible>true</Visible>
     </Content>
     <Content Include="Images\Favicon.ico">
-      <SubType>Content</SubType>
-      <Visible>true</Visible>
-    </Content>
-    <Content Include="Images\Beckhoff_Logo.svg">
       <SubType>Content</SubType>
       <Visible>true</Visible>
     </Content>
