@@ -11,7 +11,7 @@
 <!-- 入口端/出口端 row -->
 
 <!-- 側壓/下壓 action buttons row -->
-<div id="Inner" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="178" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
+<div id="Inner" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="15" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px">
 <script data-tchmi-target-attribute="data-tchmi-img" type="application/json">
 "Images/Inner.svg"
 </script>
@@ -46,7 +46,7 @@
               {
                 "objectType": "WriteToSymbol",
                 "active": true,
-                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Inner%/s%",
+                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Close%/s%",
                 "value": {
                   "objectType": "StaticValue",
                   "valueType": "tchmi:general#/definitions/BOOL",
@@ -82,7 +82,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Inner%/s%",
+        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Close%/s%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:general#/definitions/BOOL",
@@ -131,7 +131,7 @@
               {
                 "objectType": "WriteToSymbol",
                 "active": true,
-                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Inner%/s%",
+                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Close%/s%",
                 "value": {
                   "objectType": "StaticValue",
                   "valueType": "tchmi:general#/definitions/BOOL",
@@ -167,7 +167,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Inner%/s%",
+        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Close%/s%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:general#/definitions/BOOL",
@@ -226,7 +226,7 @@
               {
                 "objectType": "WriteToSymbol",
                 "active": true,
-                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Outer%/s%",
+                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Open%/s%",
                 "value": {
                   "objectType": "StaticValue",
                   "valueType": "tchmi:general#/definitions/BOOL",
@@ -262,7 +262,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Outer%/s%",
+        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Open%/s%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:general#/definitions/BOOL",
@@ -311,7 +311,7 @@
               {
                 "objectType": "WriteToSymbol",
                 "active": true,
-                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Outer%/s%",
+                "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Open%/s%",
                 "value": {
                   "objectType": "StaticValue",
                   "valueType": "tchmi:general#/definitions/BOOL",
@@ -347,29 +347,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Inner%/s%",
-        "value": {
-          "objectType": "StaticValue",
-          "valueType": "tchmi:general#/definitions/BOOL",
-          "value": false
-        },
-        "asyncWait": true
-      },
-      {
-        "objectType": "WriteToSymbol",
-        "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Outer%/s%",
-        "value": {
-          "objectType": "StaticValue",
-          "valueType": "tchmi:general#/definitions/BOOL",
-          "value": false
-        },
-        "asyncWait": true
-      },
-      {
-        "objectType": "WriteToSymbol",
-        "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxA.H_Close%/s%",
+        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Open%/s%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:general#/definitions/BOOL",
@@ -1060,16 +1038,6 @@
 
 <!-- 防塵蓋 section -->
 
-<div id="RadioGroup_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="31" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroUp.usercontrol" data-tchmi-top="59" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="入口端" data-tchmi-rightname="出口端" data-tchmi-leftactive="False" data-tchmi-radiogroUp="AAA">
-
-<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
-{
-  "color": "None"
-}
-</script>
-
-
-</div>
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
@@ -1096,7 +1064,23 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "%s%ADS.PLC1.Hmi_web.Hold%/s%",
+    "event": "%ctx%owner::Id|EventRegistrationMode=Resolve%/ctx%.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Hold%/s%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": true
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Hold%/s%",
     "actions": [
       {
         "objectType": "Condition",
@@ -1108,7 +1092,7 @@
                 "compare1": {
                   "objectType": "Symbol",
                   "valueType": "tchmi:general#/definitions/BOOL",
-                  "symbolExpression": "%s%ADS.PLC1.Hmi_web.Hold%/s%"
+                  "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Hold%/s%"
                 },
                 "compare2": {
                   "objectType": "StaticValue",
@@ -1154,27 +1138,11 @@
         "asyncWait": true
       }
     ]
-  },
-  {
-    "event": "%ctx%owner::Id|EventRegistrationMode=Resolve%/ctx%.onPressed",
-    "actions": [
-      {
-        "objectType": "WriteToSymbol",
-        "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Hold%/s%",
-        "value": {
-          "objectType": "StaticValue",
-          "valueType": "tchmi:general#/definitions/BOOL",
-          "value": true
-        },
-        "asyncWait": true
-      }
-    ]
   }
 ]
 </script>
 </div>
-<div id="TcHmiButton_25" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="773" data-tchmi-left-unit="px" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text="維持的重置">
+<div id="TcHmiButton_25" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="770" data-tchmi-left-unit="px" data-tchmi-top="177" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text="維持的重置">
 <script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
 {
   "topLeft": 8.0,
@@ -1198,7 +1166,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Hold%/s%",
+        "symbolExpression": "%s%ADS.PLC1.Hmi_web.Jog_FxB.H_Hold%/s%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:general#/definitions/BOOL",
@@ -1214,5 +1182,7 @@
   }
 ]
 </script>
+</div>
+<div id="RadioGroup_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroup.usercontrol" data-tchmi-top="47" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="入口端" data-tchmi-rightname="出口端" data-tchmi-radiogroUp="AAA">
 </div>
 </div>

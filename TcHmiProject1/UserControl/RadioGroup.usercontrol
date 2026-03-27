@@ -65,7 +65,7 @@
 ]
 </script>
 </div>
-<div id="TcHmiRadioButton_7" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRadioButton" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="248" data-tchmi-left-unit="px" data-tchmi-top="15" data-tchmi-top-unit="px" data-tchmi-width="200" data-tchmi-width-unit="px" data-tchmi-radio-group="%pp%radioGroup%/pp%" data-tchmi-text="%pp%rightName%/pp%" data-tchmi-text-font-size="20">
+<div id="TcHmiRadioButton_7" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRadioButton" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="248" data-tchmi-left-unit="px" data-tchmi-top="15" data-tchmi-top-unit="px" data-tchmi-width="200" data-tchmi-width-unit="px" data-tchmi-text="%pp%rightName%/pp%" data-tchmi-text-font-size="20" data-tchmi-radio-group="%pp%radioGroup%/pp%">
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
