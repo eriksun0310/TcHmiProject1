@@ -1,0 +1,60 @@
+{
+  "parameters": [
+    {
+      "allowSymbolExpressionsInObject": false,
+      "requiredOnCompile": false,
+      "bindable": true,
+      "propertySetterName": "setImg",
+      "propertyGetterName": "getImg",
+      "refTo": "",
+      "name": "data-tchmi-img",
+      "displayName": "img",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Path",
+      "category": "",
+      "description": "",
+      "readOnly": false,
+      "heritable": true,
+      "propertyName": "img"
+    },
+    {
+      "allowSymbolExpressionsInObject": false,
+      "requiredOnCompile": false,
+      "bindable": true,
+      "propertySetterName": "setActived",
+      "propertyGetterName": "getActived",
+      "refTo": "",
+      "name": "data-tchmi-actived",
+      "displayName": "Actived",
+      "visible": true,
+      "type": "tchmi:general#/definitions/BOOL",
+      "category": "",
+      "description": "",
+      "readOnly": false,
+      "heritable": true,
+      "propertyName": "Actived"
+    },
+    {
+      "allowSymbolExpressionsInObject": false,
+      "defaultValue": null,
+      "defaultValueInternal": null,
+      "requiredOnCompile": false,
+      "bindable": true,
+      "propertySetterName": "setBgColor",
+      "propertyGetterName": "getBgColor",
+      "refTo": "",
+      "name": "data-tchmi-bgcolor",
+      "displayName": "bgColor",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Color",
+      "category": "",
+      "description": "",
+      "readOnly": false,
+      "heritable": true,
+      "propertyName": "bgColor"
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "./../../Packages/Beckhoff.TwinCAT.HMI.Framework.14.3.431/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}
