@@ -200,6 +200,24 @@
     <Content Include="Images\Up.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Images\X+.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\X-.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Y+.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Y-.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Z+.svg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Images\Z-.svg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\StartPage\OOO.content">
       <SubType>Content</SubType>
     </Content>

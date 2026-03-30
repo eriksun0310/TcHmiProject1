@@ -24,6 +24,14 @@
       "frameworkUserControlConfig": "UserControl\\RadioGroup.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/RadioGroup"
+    },
+    "TextButton": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\TextButton.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/TextButton"
     }
   }
 }
