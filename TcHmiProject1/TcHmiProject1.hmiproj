@@ -27,6 +27,7 @@
     <HmiInitial>14.3.683.1</HmiInitial>
     <HmiRecent>14.3.683.1</HmiRecent>
     <HmiServerNodeAdvancedView>False</HmiServerNodeAdvancedView>
+    <HmiServerNodeAdvancedSettingsView>True</HmiServerNodeAdvancedSettingsView>
   </PropertyGroup>
   <PropertyGroup>
     <TwinCATHmi_Tasks>$(TcHmiDirectory)\MSBuild\Beckhoff.TwinCAT.HMI.tasks</TwinCATHmi_Tasks>
