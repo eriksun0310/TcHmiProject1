@@ -1,4 +1,4 @@
-<div id="OOO" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="800" data-tchmi-height="640">
+<div id="OOO" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1080" data-tchmi-height="1280">
 
 
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -8,6 +8,23 @@
 </script>
 <div id="TcHmiToggleSwitch_5" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiToggleSwitch" data-tchmi-height="36" data-tchmi-height-unit="px" data-tchmi-left="339" data-tchmi-left-unit="px" data-tchmi-top="230" data-tchmi-top-unit="px" data-tchmi-width="190" data-tchmi-width-unit="px" data-tchmi-text="設備開關" data-tchmi-text-font-size="24">
 </div>
-<div id="TcHmiToggleSwitch_6" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiToggleSwitch" data-tchmi-height="36" data-tchmi-height-unit="px" data-tchmi-left="548" data-tchmi-left-unit="px" data-tchmi-top="714" data-tchmi-top-unit="px" data-tchmi-width="237" data-tchmi-width-unit="px" data-tchmi-text="防塵蓋開關" data-tchmi-text-font-size="24">
+<div id="TcHmiToggleSwitch_6" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiToggleSwitch" data-tchmi-height="36" data-tchmi-height-unit="px" data-tchmi-left="539" data-tchmi-left-unit="px" data-tchmi-top="230" data-tchmi-top-unit="px" data-tchmi-width="237" data-tchmi-width-unit="px" data-tchmi-text="防塵蓋開關" data-tchmi-text-font-size="24">
+</div>
+<div id="TextButton_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="317" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X +" data-tchmi-text="X +" data-tchmi-is-enabled="True">
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+</div>
+<div id="TextButton_2" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="439" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X -" data-tchmi-text="X +" data-tchmi-is-enabled="True" data-tchmi-grid-row-index="0">
+</div>
+<div id="TextButton_3" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="305" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="315" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X +" data-tchmi-text="Y +" data-tchmi-is-enabled="True">
+</div>
+<div id="TextButton_4" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="305" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="437" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X -" data-tchmi-text="Y +" data-tchmi-is-enabled="True">
+</div>
+<div id="TextButton_5" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="596" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="316" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X +" data-tchmi-text="Z +" data-tchmi-is-enabled="True">
+</div>
+<div id="TextButton_6" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="596" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="438" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X -" data-tchmi-text="Z +" data-tchmi-is-enabled="True">
 </div>
 </div>

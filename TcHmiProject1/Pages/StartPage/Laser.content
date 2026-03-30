@@ -9,12 +9,14 @@
 <div id="TcHmiTextblock_10" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-text="雷射模組" data-tchmi-top="281" data-tchmi-top-unit="px" data-tchmi-width="60" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
 </div>
 <div id="RadioGroup_3" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroup.usercontrol" data-tchmi-top="307" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="A軸" data-tchmi-rightname="B軸">
-</div>
-<div id="RadioGroup_4" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="65" data-tchmi-height-unit="px" data-tchmi-left="473" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/RadioGroup.usercontrol" data-tchmi-top="307" data-tchmi-top-unit="px" data-tchmi-width="448" data-tchmi-width-unit="px" data-tchmi-leftname="C軸" data-tchmi-rightname="D軸">
 
-
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
 </div>
-<div id="TcHmiImage_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="223" data-tchmi-height-unit="px" data-tchmi-left="100" data-tchmi-left-unit="px" data-tchmi-src="Images/img/MachineABCD.svg" data-tchmi-top="24" data-tchmi-top-unit="px" data-tchmi-width="799" data-tchmi-width-unit="px">
+<div id="TcHmiImage_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="223" data-tchmi-height-unit="px" data-tchmi-left="110" data-tchmi-left-unit="px" data-tchmi-src="Images/img/MachineABCD.svg" data-tchmi-top="24" data-tchmi-top-unit="px" data-tchmi-width="799" data-tchmi-width-unit="px">
 </div>
 <div id="TcHmiLine_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiLine" data-tchmi-height="10" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-top="395" data-tchmi-top-unit="px" data-tchmi-width="984" data-tchmi-width-unit="px" data-tchmi-x2="976" data-tchmi-y2="0">
 </div>
@@ -36,7 +38,7 @@
 </div>
 <div id="TcHmiTextblock_14" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-text="XYZ方向控制" data-tchmi-top="619" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True">
 </div>
-<div id="TcHmiTextblock_15" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="116" data-tchmi-left-unit="px" data-tchmi-text="X : 100" data-tchmi-top="694" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20">
+<div id="TcHmiTextblock_15" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-text="X : 100" data-tchmi-top="694" data-tchmi-top-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-width="240" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-horizontal-alignment="Center">
 
 <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
 {
@@ -44,30 +46,34 @@
 }
 </script>
 </div>
-<div id="TcHmiTextblock_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="396" data-tchmi-left-unit="px" data-tchmi-text="Y : 10" data-tchmi-top="694" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20">
+<div id="TcHmiTextblock_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="324" data-tchmi-left-unit="px" data-tchmi-text="Y : 10" data-tchmi-top="694" data-tchmi-top-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-width="240" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center">
 <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
 {
   "color": "rgba(118, 113, 113, 1)"
 }
 </script>
 </div>
-<div id="TcHmiTextblock_17" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="679" data-tchmi-left-unit="px" data-tchmi-text="Z : 80" data-tchmi-top="694" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20">
+<div id="TcHmiTextblock_17" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="624" data-tchmi-left-unit="px" data-tchmi-text="Z : 80" data-tchmi-top="694" data-tchmi-top-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-font-size="20" data-tchmi-width="240" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center">
 <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
 {
   "color": "rgba(118, 113, 113, 1)"
 }
 </script>
 </div>
-<div id="TextButton_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="743" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X +" data-tchmi-text="X +" data-tchmi-is-enabled="True">
+<div id="ImgButton_15" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="744" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-img="Images/X+.svg">
 </div>
-<div id="TextButton_2" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="863" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X -" data-tchmi-text="X +" data-tchmi-is-enabled="True">
+<div id="ImgButton_16" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="24" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="866" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-img="Images/X-.svg">
 </div>
-<div id="TextButton_3" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="305" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="743" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X +" data-tchmi-text="Y +" data-tchmi-is-enabled="True">
+<div id="ImgButton_17" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="324" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="744" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-img="Images/X+.svg">
 </div>
-<div id="TextButton_4" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="305" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="863" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X -" data-tchmi-text="Y +" data-tchmi-is-enabled="True">
+<div id="ImgButton_18" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="324" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="866" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-img="Images/X-.svg">
 </div>
-<div id="TextButton_5" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="588" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="743" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X +" data-tchmi-text="Z +" data-tchmi-is-enabled="True">
+<div id="ImgButton_19" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="624" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="744" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-img="Images/X+.svg">
 </div>
-<div id="TextButton_6" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="588" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/TextButton.usercontrol" data-tchmi-top="863" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-tooltip="X -" data-tchmi-text="Z +" data-tchmi-is-enabled="True">
+<div id="ImgButton_20" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="110" data-tchmi-height-unit="px" data-tchmi-left="624" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/ImgButton.usercontrol" data-tchmi-top="866" data-tchmi-top-unit="px" data-tchmi-width="240" data-tchmi-width-unit="px" data-tchmi-img="Images/X-.svg">
+</div>
+<div id="TcHmiRadioButton_8" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRadioButton" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="510" data-tchmi-left-unit="px" data-tchmi-text="C軸" data-tchmi-top="323" data-tchmi-top-unit="px" data-tchmi-width="173" data-tchmi-width-unit="px" data-tchmi-text-font-size="20">
+</div>
+<div id="TcHmiRadioButton_9" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRadioButton" data-tchmi-height="40" data-tchmi-height-unit="px" data-tchmi-left="747" data-tchmi-left-unit="px" data-tchmi-text="D軸" data-tchmi-top="323" data-tchmi-top-unit="px" data-tchmi-width="173" data-tchmi-width-unit="px" data-tchmi-text-font-size="20">
 </div>
 </div>
