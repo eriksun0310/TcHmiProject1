@@ -364,6 +364,3 @@ MigrationBackup/
 FodyWeavers.xsd
 TcHmiProject1.~u
 TcHmiProject1.~u
-/TcHmiProject1/Properties/tchmiconfig.json
-/TcHmiProject1/Server/TcHmiSrv/TcHmiSrv.Config.default.json
-/TcHmiProject1/tsconfig.json
