@@ -225,6 +225,9 @@
     <Content Include="Pages\StartPage\OOO.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Pages\StartPage\TestContent.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="UserControl\ImgButton.usercontrol">
       <SubType>Content</SubType>
     </Content>
