@@ -222,6 +222,9 @@
     <Content Include="Images\Z-.svg">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Pages\StartPage\1 - Copy - Copy.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\StartPage\1 - Copy.content">
       <SubType>Content</SubType>
     </Content>
