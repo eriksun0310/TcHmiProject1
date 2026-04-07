@@ -130,6 +130,13 @@
       "preloadBindings": false
     },
     {
+      "url": "Pages/StartPage/TestContent.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
+    },
+    {
       "url": "Pages/StartPage/Traverse.content",
       "preload": false,
       "keepAlive": false,
