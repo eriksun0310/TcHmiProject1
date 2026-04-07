@@ -1,0 +1,50 @@
+<div id="1_3" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%">
+
+<div id="TcHmiTabNavigation_4" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTabNavigation" data-tchmi-height="1280" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="1024" data-tchmi-width-unit="px" data-tchmi-creator-locked="True">
+<script data-tchmi-target-attribute="data-tchmi-tabs" type="application/json">
+[
+  {
+    "displayName": "夾具設備",
+    "name": "夾具設備",
+    "targetFile": {
+      "path": "Pages/StartPage/Fixture.content"
+    }
+  },
+  {
+    "displayName": "橫移設備",
+    "name": "橫移設備",
+    "targetFile": {
+      "path": "Pages/StartPage/Traverse.content"
+    }
+  },
+  {
+    "displayName": "雷射設備",
+    "name": "雷射設備",
+    "targetFile": {
+      "path": "Pages/StartPage/Laser.content"
+    }
+  }
+]
+</script>
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "angle": 0.0,
+  "stopPoints": [
+    {
+      "color": "rgba(0, 0, 0, 1)",
+      "stop": "0%"
+    },
+    {
+      "color": "rgba(219, 33, 33, 0)",
+      "stop": "100%"
+    }
+  ]
+}
+</script>
+</div>
+
+</div>
